@@ -1,8 +1,6 @@
-// Get API key and base URL from environment variables
-const API_KEY = process.env.REACT_APP_API_KEY;
-const BASE_URL = process.env.REACT_APP_TMDB_BASE_URL;
+const API_KEY = import.meta.env.VITE_API_KEY;
+const BASE_URL = import.meta.env.VITE_TMDB_BASE_URL;
 
-// Object containing all API endpoints for fetching different types of movies and TV shows
 const requests = {
   fetchTrending: `${BASE_URL}/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `${BASE_URL}/discover/tv?api_key=${API_KEY}&with_networks=213`,
@@ -12,8 +10,7 @@ const requests = {
   fetchHorrorMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=27`,
   fetchRomanceMovies: `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=99`,
-  fetchPopularTVShows: `${BASE_URL}/tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
-  fetchSimilarTVshows: `${BASE_URL}/tv/66732/similar?api_key=${API_KEY}&language=en-US&page=1`,
 };
 
+export const IMAGE_BASE_URL = import.meta.env.VITE_TMDB_IMAGE_BASE_URL;
 export default requests;

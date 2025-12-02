@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_TMDB_BASE_URL,
+  baseURL: import.meta.env.VITE_TMDB_BASE_URL,
   params: {
-    api_key: process.env.REACT_APP_API_KEY,
+    api_key: import.meta.env.VITE_API_KEY,
   },
 });
 
