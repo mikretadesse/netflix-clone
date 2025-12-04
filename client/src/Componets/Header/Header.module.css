@@ -1,5 +1,6 @@
 /* =============== Header Base =============== */
 .header {
+  position: sticky;   /* or fixed */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,6 +11,7 @@
   top: 0;
   z-index: 1000;
 }
+
 
 .header_left {
   display: flex;
@@ -147,4 +149,38 @@
   .icon {
     font-size: 20px; /* larger touch target */
   }
+}
+
+.search_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search_input {
+  width: 160px;
+  margin-left: 10px;
+  padding: 4px 8px;
+  background: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.search_input:focus {
+  width: 200px;
+}
+.header_right .icon:not(.profile_icon) {
+  display: none !important;
+}
+/* ================= Hide Icons on Mobile BUT KEEP Profile ================= */
+@media (max-width: 768px) {
+
+  /* Hide search + notification only */
+  .search_container,
+  .header_right .icon:not(.profile_icon) {
+    display: none !important;
+  }
+
 }

@@ -1,0 +1,46 @@
+/* src/Pages/NotFound/NotFound.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #141414; /* Netflix dark background */
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.title {
+  font-size: 8rem;
+  margin: 0;
+  color: #e50914; /* Netflix red */
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f40612;
+}

@@ -1,0 +1,34 @@
+/* Container for the page */
+.mylist_page {
+  padding: 5rem;
+  background-color: #141414; /* Netflix dark background */
+  min-height: 50vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Page title */
+.page_title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Go Back Home button */
+.button {
+  background-color: #e50914; /* Netflix red */
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f40612; /* Slightly brighter red on hover */
+}

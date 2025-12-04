@@ -1,12 +1,14 @@
 .row_container {
   position: relative;
   color: white;
-  margin: 20px 0;
+  margin: 10px 0px;
 }
 
 .row_title {
-  margin-left: 20px;
   font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .row_posters {
@@ -30,7 +32,7 @@
 }
 
 .row_poster_large {
-  max-height: 250px;
+  max-height: 260px;
 }
 
 .row_poster:hover {
@@ -47,10 +49,17 @@
   bottom: 0;
   width: 100%;
   padding: 5px;
+  font-size: 14px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   opacity: 0;
   color: #fff;
   transition: opacity 0.3s;
+}
+
+.poster_overlay h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .poster_wrapper:hover .poster_overlay {
