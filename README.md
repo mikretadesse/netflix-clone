@@ -88,13 +88,16 @@ cd netflix-clone
 ```bash
 npm install
 
+---
+1. **Folder structure:**
 client/
 ├── public/
 ├── src/
-├── dist/              # Production build output
+├── dist/              
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
 
+1. **Clone the repository:**
 
