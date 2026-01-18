@@ -66,14 +66,16 @@ A **Netflix-inspired frontend clone** built with React. The application allows u
 
 ---
 
-## ⚙️ Setup & Installation
+## Notes
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/mikretadesse/Netflix-Clone.git
-cd Netflix-Clone
+- This project is for educational purposes only.
+- No real payments or authentication are implemented.
 
-### 2. Install dependencies
-```bash
-npm install
+## Author
+
+Mikre Tadesse
+
+---
+
+**Evangadi Networks – Phase 4 Project**
 
