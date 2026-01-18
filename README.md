@@ -3,84 +3,76 @@
 [![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)
 [![TMDB API](https://img.shields.io/badge/TMDB-API-green)](https://www.themoviedb.org/documentation/api)
 
-A **Netflix-inspired clone** built with React, featuring browsing, search, user profiles, and responsive design.
+A **Netflix-inspired frontend clone** built with React. The application allows users to browse, search, and explore movies and TV shows using real data from the TMDB API, with a responsive and modern UI.
 
 ---
 
-## Table of Contents
+## 📌 Demo
 
-- [Demo](#demo)
-- [Features](#features)
-- [Pages](#pages)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Folder Structure](#folder-structure)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+> Live demo available here:  
+> **https://netflix-clone.mikretadesse.com** *(example — update with your actual link)*
 
----
+### Screenshots
 
-## Demo
-
-> my project demo screenshots here
-
-![Home Page Screenshot](./screenshots/home.png)  
-![Movies Screenshot](./screenshots/movies.png)  
-![Latest Screenshot](./screenshots/latest.png)
-![Tv Shows Screenshot](./screenshots/tvshows.png)
-![My List Screenshot](./screenshots/mylist.png)
-![Browse Languages Screenshot](./screenshots/browse_languages.png)
-![Search Screenshot](./screenshots/search.png)
-![Account Screenshot](./screenshots/Account.png)
-![Help Center Screenshot](./screenshots/help_center.png)
+![Home Page](./screenshots/home.png)  
+![Movies](./screenshots/movies.png)  
+![Latest](./screenshots/latest.png)  
+![TV Shows](./screenshots/tvshows.png)  
+![My List](./screenshots/mylist.png)  
+![Browse Languages](./screenshots/browse_languages.png)  
+![Search](./screenshots/search.png)  
+![Account](./screenshots/Account.png)  
+![Help Center](./screenshots/help_center.png)
 
 ---
 
-## Features
+## 🚀 Features
 
-- Browse trending movies and shows
-- Filter by genre (Action, Comedy, Horror, Romance, Documentaries)
-- Search for movies and TV shows
-- User profiles with avatar and name
-- Responsive design (mobile and desktop)
-- Header changes from transparent to black on scroll
-- Profile dropdown with Account, Help Center, and Sign Out links
-- My List page to manage favorite content
+- Browse trending movies and TV shows
+- Filter content by genres (Action, Comedy, Horror, Romance, Documentaries)
+- Search for movies and TV series
+- User profile selection with avatar and name
+- Responsive design for mobile and desktop
+- Dynamic header effect on scroll
+- Profile dropdown (Account, Help Center, Sign Out)
+- “My List” page to manage favorite content
 
 ---
 
-## Pages
+## 📄 Pages
 
-- **Home** – Displays featured movies and shows
-- **TV Shows** – Lists popular TV series
-- **Movies** – Lists movies by genres
-- **Latest** – Shows trending content
-- **My List** – User-specific favorite movies/shows
-- **Browse by Languages** – Filter content by language
-- **Search** – Search page for movies/shows
-- **Account** – Manage profiles and settings
+- **Home** – Featured and trending content
+- **TV Shows** – Popular TV series
+- **Movies** – Movies categorized by genre
+- **Latest** – Trending and newly released content
+- **My List** – User-selected favorite items
+- **Browse by Languages** – Filter movies by language
+- **Search** – Search movies and TV shows
+- **Account** – Profile and account information
 - **Help Center** – Demo support page
-- **Sign Out** – Logout page
+- **Sign Out** – Logout functionality
 
 ---
 
-## Technologies
+## 🛠 Technologies Used
 
-- **React** – Frontend library
-- **React Router DOM** – Routing
-- **Axios** – API calls
-- **TMDB API** – Movie data
-- **CSS Modules** – Component-level styling
-- **Material UI Icons** – Icons for UI
+- **React** – Frontend framework
+- **React Router DOM** – Client-side routing
+- **Axios** – API requests
+- **TMDB API** – Movie and TV show data
+- **CSS Modules** – Scoped component styling
+- **Material UI Icons** – UI icons
 
 ---
 
-## Setup
+## ⚙️ Setup & Installation
 
-1. **Clone the repository:**
-
-````bash
+### 1. Clone the repository
+```bash
 git clone https://github.com/mikretadesse/Netflix-Clone.git
-cd netflix-clone
+cd Netflix-Clone
 
----
+### 2. Install dependencies
+```bash
+npm install
+
