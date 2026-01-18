@@ -89,6 +89,11 @@ cd netflix-clone
 npm install
 
 ---
+
+---
+
+## Features
+
 1. **Folder structure:**
 client/
 ├── public/
