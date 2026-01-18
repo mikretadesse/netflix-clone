@@ -82,7 +82,8 @@ A **Netflix-inspired clone** built with React, featuring browsing, search, user 
 ````bash
 git clone https://github.com/mikretadesse/Netflix-Clone.git
 cd netflix-clone
-<
+
+---
 ### 2. Install dependencies
 ```bash
 npm install
