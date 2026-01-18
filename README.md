@@ -9,9 +9,9 @@ A **Netflix-inspired frontend clone** built with React. The application allows u
 
 ## 📌 Demo
 
-> Live demo available here:  
-
-> **https://netflix-clone.mikretadesse.com**
+> Live demo available here:
+> 
+> **https://netflix-clone.mikretadesse.com** 
 
 ### Screenshots
 
