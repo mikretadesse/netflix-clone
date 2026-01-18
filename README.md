@@ -88,6 +88,13 @@ cd netflix-clone
 ```bash
 npm install
 
-### 2. Install dependencies
-```bash
-npm install
+client/
+├── public/
+├── src/
+├── dist/              # Production build output
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
