@@ -84,25 +84,3 @@ git clone https://github.com/mikretadesse/Netflix-Clone.git
 cd netflix-clone
 
 ---
-### 2. Install dependencies
-```bash
-npm install
-
----
-
----
-
-## Features
-
-1. **Folder structure:**
-client/
-├── public/
-├── src/
-├── dist/              
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-
-1. **Clone the repository:**
-
