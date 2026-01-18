@@ -116,13 +116,14 @@
 /* ======= Copyright ======== */
 .copyright {
   margin-top: 16px;
-  font-size: 12px;
+  font-size: 18px;
   color: #757575;
 }
 
 /* ===== Country Label ===== */
 .country {
-  font-size: 13px;
+  font-size: 20px;
+  color: chartreuse;
   color: #757575;
   text-align: center;
 }

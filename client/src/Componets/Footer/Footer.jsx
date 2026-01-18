@@ -84,10 +84,10 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className={Styles.copyright}>&copy; 1997-2024 Netflix, Inc.</p>
+      <p className={Styles.copyright}>&copy; 2025 Amazon Clone — Built for Practice</p>
 
       {/* Country Label */}
-      <p className={Styles.country}>Netflix Ethiopia</p>
+      <p className={Styles.country}>Netflix - Clone Ethiopia</p>
     </footer>
   );
 };
